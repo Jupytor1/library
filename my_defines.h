@@ -1,5 +1,9 @@
+#pragma once
+
 #include <iostream>
 #include <algorithm>
+#include <set>
+#include <vector>
 #define flush fflush(stdout)
 using namespace std;
 typedef long long ll;
