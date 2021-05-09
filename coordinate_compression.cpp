@@ -1,5 +1,3 @@
-#include "my_defines.h"
-
 void comp(int* a, int n) { //   vector : (int* a) -> (vector<int>& a)
     int i;
     set<int> s;

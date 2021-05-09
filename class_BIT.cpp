@@ -1,19 +1,15 @@
-#include "my_defines.h"
-
-#define N 100005
-
 class BIT {
-private:
-    int bit[N] = {};
+  private:
+    int bit[100010] = {};
 
-public:
+  public:
     int sum(int i) {
         int s = 0;
         while (i > 0) {
             s += bit[i];
             i -= i & (-i);
         }
-        return (s);
+        return s;
     }
 
     void add(int n, int i, int k) {

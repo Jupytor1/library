@@ -1,13 +1,11 @@
-#include "my_defines.h"
-
 #define N 100005
 
 class unionfind {
-private:
+  private:
     int par[N] = {}, r[N] = {}, size[N] = {};
 
-public:
-    unionfind(int n) {
+  public:
+    void init(int n) {
         int i;
         for (i = 0; i < n; i++) {
             par[i] = i;

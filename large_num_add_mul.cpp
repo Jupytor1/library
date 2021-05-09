@@ -1,6 +1,4 @@
-#include "my_defines.h"
-
-// These functions can add and multiple numbers that are too large to be calculated (even with ll).
+// These functions can add and multiply numbers that are too large to calculate as integers.
 // Note that these functions deal with numbers 'reversed'.
 // ll型でも扱えない巨大な整数同士の加算、積算をします
 // ll型でも扱えない巨大な整数同士の加算、積算をしたい場合にどうぞ
